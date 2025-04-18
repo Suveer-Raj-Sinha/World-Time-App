@@ -1,0 +1,7 @@
+*.dart linguist-language=Dart
+*.kt linguist-language=Kotlin
+*.java linguist-language=Java
+*.xml linguist-language=XML
+*.c linguist-language=ignore
+*.cpp linguist-language=ignore
+*.h linguist-language=ignore
