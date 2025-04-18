@@ -5,3 +5,17 @@
 *.c linguist-language=ignore
 *.cpp linguist-language=ignore
 *.h linguist-language=ignore
+# Force Dart detection
+*.dart linguist-language=Dart
+
+# Ignore native code used by Flutter/Android
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+
+# Ignore build and CMake files
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+build/** linguist-vendored
